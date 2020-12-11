@@ -1,0 +1,20 @@
+{
+  "name": "datgui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "regl": "^2.0.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  },
+  "scripts": {
+    "build": "parcel build src/index.html -d ./",
+    "start": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
